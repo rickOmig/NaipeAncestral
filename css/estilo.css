@@ -1,0 +1,68 @@
+body{
+    color: #202020;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+}
+
+header{
+    position: relative;
+    background-color: #131313;
+    padding-bottom: 10px;
+}
+header .container{
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.navibar{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    padding: 10px 0px 10px 0px;
+    margin-right: 20px;
+
+}
+
+.navibar ul{
+    font-size: 17px;
+}
+
+.navibar a{
+    color:#fff;
+}
+
+.navibar ul li{
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+.logotipo{
+    padding-top: 10px;
+    color:#fff;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.barraVertical{
+    background-color: #333;
+    bottom: 0;
+    right: 0;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.barraVertical ul{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.barraVertical a{
+    color: #fff;
+}
+
+.barraVertical ul li{
+    margin-top: 30px;
+}
+

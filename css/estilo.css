@@ -42,27 +42,34 @@ header .container{
     color:#fff;
     font-size: 25px;
     margin-left: 15px;
+    font-weight: 800;
 }
-
-.barraVertical{
-    background-color: #333;
-    bottom: 0;
+aside{
+    width: 15%;
+    padding-bottom: 70%;
+    padding-left: 15px;
     right: 0;
-    padding: 10px 10px 10px 10px;
+    float:left;
+    background-color: #5f021f ;
+}
+
+.verticalBar a{
+    color: #fff;
+    margin-left: 10px;
 
 }
 
-.barraVertical ul{
-    font-size: 17px;
-    margin-left: 20px;
-    margin-right: 10px;
+.verticalBar ul li{
+    margin-top: 15px;
 }
 
-.barraVertical a{
+footer{
+    background-color:#202020;
+    height: 30%;
+
+}
+
+
+.ccLicense, a{
     color: #fff;
 }
-
-.barraVertical ul li{
-    margin-top: 30px;
-}
-

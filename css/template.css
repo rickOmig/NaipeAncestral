@@ -10,7 +10,7 @@ header{
 }
 header .container{
     margin: 0 auto;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 100% 10px 100%;
 
 }
 
@@ -47,8 +47,8 @@ header .container{
 aside{
     display: block;
     width: 15%;
-    height: 100%;
     padding-left: 15px;
+    padding-bottom: 100%;
     right: 0;
     float:left;
     background-color: #5f021f;
@@ -73,6 +73,4 @@ footer{
     text-align: center;
     bottom: 0;
     width: 100%;
-
-
 }

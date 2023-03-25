@@ -5,7 +5,7 @@ body{
 
 header{
     position: relative;
-    background-color: #131313;
+    background-color: #202020;
     padding-bottom: 10px;
 }
 header .container{
@@ -45,12 +45,13 @@ header .container{
     font-weight: 800;
 }
 aside{
+    display: block;
     width: 15%;
-    padding-bottom: 70%;
+    height: 100%;
     padding-left: 15px;
     right: 0;
     float:left;
-    background-color: #5f021f ;
+    background-color: #5f021f;
 }
 
 .verticalBar a{
@@ -64,12 +65,14 @@ aside{
 }
 
 footer{
+    position: absolute;
+    display: block;
     background-color:#202020;
-    height: 30%;
-
-}
-
-
-.ccLicense, a{
+    padding: 10px;
     color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+
+
 }
